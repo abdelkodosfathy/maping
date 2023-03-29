@@ -1,0 +1,30 @@
+body {
+    width: fit-content;
+    margin: 0;
+    overflow: hidden;
+    background-color: #01171b;
+}
+.pic {
+    background: red;
+    color: #fff;
+    text-align: center;
+}
+svg path {
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: 1;
+    transition: 0.5s ease;
+}
+svg {
+    width: 550px;
+    height: 560px;
+}
+svg path:hover{
+    fill: #006284;
+}
+.op-zero {
+    opacity: 0.1;
+}
+.scale-up{
+
+}
